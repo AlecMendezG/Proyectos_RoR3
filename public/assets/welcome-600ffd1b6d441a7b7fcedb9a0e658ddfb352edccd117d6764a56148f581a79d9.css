@@ -1,0 +1,12 @@
+/* line 1, app/assets/stylesheets/welcome.scss */
+h1 {
+  color: black;
+  height: 30px;
+  text-align: center;
+}
+
+/* line 7, app/assets/stylesheets/welcome.scss */
+p {
+  height: 15px;
+  text-align: center;
+}

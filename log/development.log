@@ -1,0 +1,74 @@
+Started GET "/welcome/index" for 127.0.0.1 at 2024-09-04 16:16:17 -0600
+  [1m[35m (7.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 199)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 5927)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms | Allocations: 13162)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/welcome/index)" for 127.0.0.1 at 2024-09-04 16:18:11 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/index)"):
+  
+Started GET "/welcome/index" for 127.0.0.1 at 2024-09-04 16:18:16 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2684)
+Completed 200 OK in 17ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 4680)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2024-09-04 16:19:36 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 175)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 4740)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms | Allocations: 5839)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2024-09-04 16:20:28 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2749)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 3825)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2024-09-04 16:26:20 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2796)
+Completed 200 OK in 40ms (Views: 34.3ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 19:31:03 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/alejandro/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/alejandro/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 383)
+Completed 200 OK in 17ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 4533)
+
+
+Started GET "/hash/mostrar" for 127.0.0.1 at 2024-09-04 19:32:25 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 2.4ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 41.6ms | Allocations: 4014)
+Completed 200 OK in 70ms (Views: 66.1ms | ActiveRecord: 0.0ms | Allocations: 5141)
+
+
